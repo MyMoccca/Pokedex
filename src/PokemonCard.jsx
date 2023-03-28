@@ -1,6 +1,5 @@
 
 
-
 function PokemonCard(props) {
   return (
     <figure>

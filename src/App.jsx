@@ -1,5 +1,5 @@
 import PokemonCard from "./PokemonCard"
-
+import PropTypes from "prop-types";
 function App() {
   const pokemonList = [
     {
@@ -18,5 +18,11 @@ function App() {
     </div>
 
   );
+}
+PokemonCard.propTypes = {
+  pokemonList: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string,
+  })
 }
 export default App
