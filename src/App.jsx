@@ -1,6 +1,8 @@
+import './App.css'
 import PokemonCard from "./PokemonCard"
 import NavBar from "./NavBar"
 import { useState } from "react";
+
 
 function App() {
 
@@ -45,3 +47,5 @@ function App() {
 }
 
 export default App
+
+//   <
